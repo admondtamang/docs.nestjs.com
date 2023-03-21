@@ -14,7 +14,7 @@ $ npm i -D @types/express-session
 Once the installation is complete, apply the `express-session` middleware as global middleware (for example, in your `main.ts` file).
 
 ```typescript
-import * as session from 'express-session';
+import session from 'express-session';
 // somewhere in your initialization file
 app.use(
   session({
